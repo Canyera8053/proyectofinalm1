@@ -117,6 +117,7 @@ div.imagenPresentacion {
 
 .contacto {
     display: flex;
+    
 
 }
 
@@ -150,7 +151,7 @@ form {
     flex-direction: column;
     margin-top: 20px;
     margin: 10px;
-
+   flex-wrap: wrap;
 
 }
 
@@ -218,4 +219,9 @@ align-self: self-end;
 .menu{
    color: coral;
    text-align: center;  
+}
+@media screen and (max-width:422px){
+    .imagenPresentacion{
+        opacity: 0;
+    }
 }
