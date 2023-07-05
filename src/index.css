@@ -57,7 +57,7 @@ div.imagenPresentacion {
     display: flex;
     flex-direction: row;
     padding: 40px;
-    background-color: rgb(208, 200, 200);
+    background-color: rgb(188, 179, 228);
 }
 
 .servicios {
