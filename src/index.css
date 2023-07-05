@@ -225,3 +225,22 @@ align-self: self-end;
         opacity: 0;
     }
 }
+
+@media screen and (max-width:422px){
+    .contacto{
+        display: block;
+    }
+    form{
+        width: 100%;
+    }
+    .informacioncontacto {
+        width: 100%;
+    }
+
+    div.Bienvenidos {
+        width: 100%;
+    }
+    .descripcion{
+        width: 100%;
+    }
+}
