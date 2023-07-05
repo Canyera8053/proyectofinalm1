@@ -1,0 +1,221 @@
+.cabecera {
+    background-image: url(imagenes/cabecera.jpg);
+    width: 100%;
+    right: 200px;
+    padding: 90px;
+    text-align: center;
+    opacity: 1;
+    color: white;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav.principal ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+nav.principal ul li a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: rgb(246, 241, 241);
+    font-size: 20px;
+}
+
+
+
+
+nav.principal ul li a:hover {
+    background-color: coral;
+    color: white;
+}
+
+div.Bienvenidos {
+    width: 50%;
+    right: 400px;
+    font-size: 25px;
+}
+
+
+.descripcion {
+    padding: 40px;
+    text-align: center;
+}
+
+div.imagenPresentacion {
+    width: 50%;
+    right: 100px;
+    float: right;
+}
+
+.conjunt_imatge_text {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    background-color: rgb(208, 200, 200);
+}
+
+.servicios {
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    color: white;
+    background-image: url(imagenes/seccion\ imagenes.jpg);
+    font-size: 25px;
+}
+
+
+.imagenes {
+    display: flex;
+
+
+}
+
+
+.pollos {
+    height: 80px;
+    width: 25%;
+    padding: 10px;
+}
+
+.pollos:hover{
+    opacity: 0.5;
+    
+}
+
+.comidaPreparada {
+    width: 25%;
+    padding: 10px;
+}
+
+.comidaPreparada:hover{
+    opacity: 0.5;
+}
+
+.costillas {
+    width: 25%;
+    padding: 10px;
+}
+
+.costillas:hover{
+    opacity: 0.5;
+}
+
+.empanadas {
+    width: 25%;
+    padding: 10px;
+}
+
+.empanadas:hover{
+    opacity: 0.5;
+}
+
+.contacto {
+    display: flex;
+
+}
+
+.informacioncontacto {
+    padding: 20px;
+    margin-top: 20px;
+    width: 50%;
+    right: 100px;
+    background-image: url(imagenes/imagencontacto4.jpg);
+    text-align: center;
+    font-size: 25px;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.informacioncontacto div {
+    text-align: center;
+}
+
+form {
+    background-image: url(imagenes/imagenformulario.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 10px;
+
+
+}
+
+.field {
+    padding: 5px;
+    width: 300px;
+}
+
+.button {
+    background-color: rgb(105, 197, 14);
+    padding: 15px;
+    width: 300px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: coral;
+}
+
+.mapa{
+    margin-top: 40px;
+    margin: 10px;
+}
+
+footer {
+    margin: 10px;
+    margin-top: 20px;
+    padding: 60px;
+    background-image: url(imagenes/seccion\ imagenes.jpg);
+    color: white;
+    background-repeat:none;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.presentacion{
+    display: block;
+    width: 50%;
+    
+}
+
+#titolFotter{
+    font-size: 40px;
+    text-align: center; 
+    border-radius: 3px;
+    margin: 10px; 
+    color: coral;
+}
+
+.enlacesylogos{
+width: 50px;
+align-self: self-end;
+
+}
+
+.textofooter{
+ width: 50%; 
+ display: block; 
+ text-align: center;
+
+}
+
+.menu{
+   color: coral;
+   text-align: center;  
+}
